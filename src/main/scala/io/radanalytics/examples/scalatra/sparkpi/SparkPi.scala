@@ -17,5 +17,4 @@ class SparkPI( spark : SparkContext, scale : Int ) {
     } ).reduce( _ + _ )
     4.0 * count / ( n - 1 )
   }
-
 }

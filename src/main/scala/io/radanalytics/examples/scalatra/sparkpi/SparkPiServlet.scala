@@ -4,7 +4,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.scalatra.{Ok, ScalatraServlet}
 
 class SparkPiServlet extends ScalatraServlet {
-
   get("/"){
     Ok( "Scala Scalatra SparkPi server running. Add the 'sparkpi' route to this URL to invoke the app." )
   }
